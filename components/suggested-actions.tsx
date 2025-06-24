@@ -19,24 +19,34 @@ function PureSuggestedActions({
 }: SuggestedActionsProps) {
   const suggestedActions = [
     {
-      title: 'What are the advantages',
-      label: 'of using Next.js?',
-      action: 'What are the advantages of using Next.js?',
+      title: 'Reword my prompt',
+      label: 'to make it clearer and more specific',
+      action: 'Can you help reword this prompt to be clearer and more specific: "Explain AI"?',
     },
     {
-      title: 'Write code to',
-      label: `demonstrate djikstra's algorithm`,
-      action: `Write code to demonstrate djikstra's algorithm`,
+      title: 'Improve a prompt',
+      label: 'for generating summaries',
+      action: 'Improve this prompt to generate better summaries: "Summarize this article."',
     },
     {
-      title: 'Help me write an essay',
-      label: `about silicon valley`,
-      action: `Help me write an essay about silicon valley`,
+      title: 'Give examples of',
+      label: 'effective prompt formats',
+      action: 'Give 3 examples of effective prompt formats for different use cases (e.g. Q&A, code generation, summarization).',
     },
     {
-      title: 'What is the weather',
-      label: 'in San Francisco?',
-      action: 'What is the weather in San Francisco?',
+      title: 'Make my prompt',
+      label: 'more creative and engaging',
+      action: 'Can you make this prompt more creative and engaging: "Describe a city of the future"?',
+    },
+    {
+      title: 'Convert this instruction',
+      label: 'into a role-based prompt',
+      action: 'Convert this into a role-based prompt: "Explain how a plane flies."',
+    },
+    {
+      title: 'Write a prompt that uses',
+      label: 'few-shot examples for classification',
+      action: 'Write a prompt that uses few-shot examples to classify emails as "spam" or "not spam".',
     },
   ];
 
